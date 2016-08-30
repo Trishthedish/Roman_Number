@@ -3,6 +3,10 @@ require 'minitest/spec'
 require 'minitest/autorun'
 require 'minitest/reporters'
 
+# require is for when your using ruby libary # use require_relative when its within your folder. # Will it work without using ./ before Spec_helper.
+ 
+
+require_relative './Spec_helper'
 require_relative '../lib/Roman_Number'
 
 describe Roman_Number do

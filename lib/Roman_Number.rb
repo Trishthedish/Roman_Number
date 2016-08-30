@@ -16,6 +16,8 @@ class Roman_Number
   def get_roman()
     num = @number
     answer = ""
+# you can also use: If num >= 10 
+
     while num >= 10
       answer += "X"
       num    -= 10
